@@ -103,8 +103,8 @@
 									<integer>4</integer>
 									<key>value</key>
 									<array>
-										<real>0.0045260945335030556</real>
-										<real>-0.010502991266548634</real>
+										<real>0.0</real>
+										<real>0.0</real>
 									</array>
 								</dict>
 							</array>
@@ -152,8 +152,8 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>0.0045260945335030556</real>
-							<real>-0.010502991266548634</real>
+							<real>0.0</real>
+							<real>0.0</real>
 							<false/>
 							<integer>0</integer>
 						</array>
