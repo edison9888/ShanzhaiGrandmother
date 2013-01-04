@@ -27,7 +27,7 @@
 	<key>onlyPublishCCBs</key>
 	<true/>
 	<key>publishDirectory</key>
-	<string>.</string>
+	<string>ccbResources</string>
 	<key>publishDirectoryAndroid</key>
 	<string></string>
 	<key>publishDirectoryHTML5</key>
@@ -49,7 +49,7 @@
 	<key>publishResolution_hd</key>
 	<false/>
 	<key>publishResolution_ipad</key>
-	<false/>
+	<true/>
 	<key>publishResolution_ipadhd</key>
 	<false/>
 	<key>publishResolution_large</key>
