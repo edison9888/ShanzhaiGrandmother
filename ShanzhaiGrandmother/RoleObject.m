@@ -1,14 +1,14 @@
 //
-//  Grandmonther.m
+//  RoleObject.m
 //  ShanzhaiGrandmother
 //
 //  Created by Justin on 13-1-6.
 //
 //
 
-#import "Grandmonther.h"
+#import "RoleObject.h"
 
-@implementation Grandmonther
+@implementation RoleObject
 
 
 @synthesize buffArray;

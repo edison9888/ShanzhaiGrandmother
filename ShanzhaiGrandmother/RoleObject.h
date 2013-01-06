@@ -1,5 +1,5 @@
 //
-//  Grandmonther.h
+//  RoleObject.h
 //  ShanzhaiGrandmother
 //
 //  Created by Justin on 13-1-6.
@@ -15,7 +15,7 @@ typedef enum {
 
 
 
-@interface Grandmonther : GameObject
+@interface RoleObject : GameObject
 {
     NSArray *buffArray;  //老奶奶身上拥有的buff
 }

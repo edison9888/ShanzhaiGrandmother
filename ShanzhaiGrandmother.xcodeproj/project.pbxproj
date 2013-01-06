@@ -253,7 +253,7 @@
 		D072D4091697212500A0EA6A /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D3ED1697212500A0EA6A /* SSZipArchive.m */; };
 		D072D40E1699AB4E00A0EA6A /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D40D1699AB4E00A0EA6A /* GameObject.m */; };
 		D072D4111699AF0A00A0EA6A /* SkillObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D4101699AF0A00A0EA6A /* SkillObject.m */; };
-		D072D4141699AF1C00A0EA6A /* Grandmonther.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D4131699AF1C00A0EA6A /* Grandmonther.m */; };
+		D072D4141699AF1C00A0EA6A /* RoleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D4131699AF1C00A0EA6A /* RoleObject.m */; };
 		D072D4171699AF7200A0EA6A /* EvilObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D4161699AF7200A0EA6A /* EvilObject.m */; };
 		D072D4261699BA6D00A0EA6A /* CoinObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D4251699BA6D00A0EA6A /* CoinObject.m */; };
 		D072D42B1699BE5F00A0EA6A /* IceSkill.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D42A1699BE5F00A0EA6A /* IceSkill.m */; };
@@ -680,8 +680,8 @@
 		D072D40D1699AB4E00A0EA6A /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameObject.m; sourceTree = "<group>"; };
 		D072D40F1699AF0900A0EA6A /* SkillObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkillObject.h; sourceTree = "<group>"; };
 		D072D4101699AF0A00A0EA6A /* SkillObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillObject.m; sourceTree = "<group>"; };
-		D072D4121699AF1C00A0EA6A /* Grandmonther.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grandmonther.h; sourceTree = "<group>"; };
-		D072D4131699AF1C00A0EA6A /* Grandmonther.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grandmonther.m; sourceTree = "<group>"; };
+		D072D4121699AF1C00A0EA6A /* RoleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoleObject.h; sourceTree = "<group>"; };
+		D072D4131699AF1C00A0EA6A /* RoleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoleObject.m; sourceTree = "<group>"; };
 		D072D4151699AF7200A0EA6A /* EvilObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvilObject.h; sourceTree = "<group>"; };
 		D072D4161699AF7200A0EA6A /* EvilObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvilObject.m; sourceTree = "<group>"; };
 		D072D4241699BA6D00A0EA6A /* CoinObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinObject.h; sourceTree = "<group>"; };
@@ -1424,8 +1424,8 @@
 		D072D4301699BE8A00A0EA6A /* Grandmother */ = {
 			isa = PBXGroup;
 			children = (
-				D072D4121699AF1C00A0EA6A /* Grandmonther.h */,
-				D072D4131699AF1C00A0EA6A /* Grandmonther.m */,
+				D072D4121699AF1C00A0EA6A /* RoleObject.h */,
+				D072D4131699AF1C00A0EA6A /* RoleObject.m */,
 				D072D4381699BF1700A0EA6A /* NormalRole.h */,
 				D072D4391699BF1700A0EA6A /* NormalRole.m */,
 				D072D43B1699BF2000A0EA6A /* BigRole.h */,
@@ -1744,7 +1744,7 @@
 				D072D4091697212500A0EA6A /* SSZipArchive.m in Sources */,
 				D072D40E1699AB4E00A0EA6A /* GameObject.m in Sources */,
 				D072D4111699AF0A00A0EA6A /* SkillObject.m in Sources */,
-				D072D4141699AF1C00A0EA6A /* Grandmonther.m in Sources */,
+				D072D4141699AF1C00A0EA6A /* RoleObject.m in Sources */,
 				D072D4171699AF7200A0EA6A /* EvilObject.m in Sources */,
 				D072D4261699BA6D00A0EA6A /* CoinObject.m in Sources */,
 				D072D42B1699BE5F00A0EA6A /* IceSkill.m in Sources */,
