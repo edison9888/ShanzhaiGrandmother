@@ -251,6 +251,11 @@
 		D072D4071697212500A0EA6A /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = D072D3E81697212500A0EA6A /* unzip.c */; };
 		D072D4081697212500A0EA6A /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = D072D3EA1697212500A0EA6A /* zip.c */; };
 		D072D4091697212500A0EA6A /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D3ED1697212500A0EA6A /* SSZipArchive.m */; };
+		D072D40E1699AB4E00A0EA6A /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D40D1699AB4E00A0EA6A /* GameObject.m */; };
+		D072D4111699AF0A00A0EA6A /* SkillObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D4101699AF0A00A0EA6A /* SkillObject.m */; };
+		D072D4141699AF1C00A0EA6A /* Grandmonther.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D4131699AF1C00A0EA6A /* Grandmonther.m */; };
+		D072D4171699AF7200A0EA6A /* EvilObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D4161699AF7200A0EA6A /* EvilObject.m */; };
+		D072D4261699BA6D00A0EA6A /* CoinObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D4251699BA6D00A0EA6A /* CoinObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -660,6 +665,16 @@
 		D072D3EB1697212500A0EA6A /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
 		D072D3EC1697212500A0EA6A /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
 		D072D3ED1697212500A0EA6A /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		D072D40C1699AB4E00A0EA6A /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		D072D40D1699AB4E00A0EA6A /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameObject.m; sourceTree = "<group>"; };
+		D072D40F1699AF0900A0EA6A /* SkillObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkillObject.h; sourceTree = "<group>"; };
+		D072D4101699AF0A00A0EA6A /* SkillObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillObject.m; sourceTree = "<group>"; };
+		D072D4121699AF1C00A0EA6A /* Grandmonther.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grandmonther.h; sourceTree = "<group>"; };
+		D072D4131699AF1C00A0EA6A /* Grandmonther.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grandmonther.m; sourceTree = "<group>"; };
+		D072D4151699AF7200A0EA6A /* EvilObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvilObject.h; sourceTree = "<group>"; };
+		D072D4161699AF7200A0EA6A /* EvilObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvilObject.m; sourceTree = "<group>"; };
+		D072D4241699BA6D00A0EA6A /* CoinObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinObject.h; sourceTree = "<group>"; };
+		D072D4251699BA6D00A0EA6A /* CoinObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -718,6 +733,9 @@
 		D067317C16876CFF007A242A /* ShanzhaiGrandmother */ = {
 			isa = PBXGroup;
 			children = (
+				D072D4281699BBCC00A0EA6A /* Skills */,
+				D072D4271699BBBC00A0EA6A /* common */,
+				D072D40A1699A64B00A0EA6A /* Roles */,
 				D072D3AF1697212500A0EA6A /* CCBReader */,
 				D06732F416876D01007A242A /* AppDelegate.h */,
 				D06732F516876D01007A242A /* AppDelegate.m */,
@@ -1319,6 +1337,37 @@
 			path = minizip;
 			sourceTree = "<group>";
 		};
+		D072D40A1699A64B00A0EA6A /* Roles */ = {
+			isa = PBXGroup;
+			children = (
+				D072D4121699AF1C00A0EA6A /* Grandmonther.h */,
+				D072D4131699AF1C00A0EA6A /* Grandmonther.m */,
+				D072D4151699AF7200A0EA6A /* EvilObject.h */,
+				D072D4161699AF7200A0EA6A /* EvilObject.m */,
+				D072D4241699BA6D00A0EA6A /* CoinObject.h */,
+				D072D4251699BA6D00A0EA6A /* CoinObject.m */,
+			);
+			name = Roles;
+			sourceTree = "<group>";
+		};
+		D072D4271699BBBC00A0EA6A /* common */ = {
+			isa = PBXGroup;
+			children = (
+				D072D40C1699AB4E00A0EA6A /* GameObject.h */,
+				D072D40D1699AB4E00A0EA6A /* GameObject.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		D072D4281699BBCC00A0EA6A /* Skills */ = {
+			isa = PBXGroup;
+			children = (
+				D072D40F1699AF0900A0EA6A /* SkillObject.h */,
+				D072D4101699AF0A00A0EA6A /* SkillObject.m */,
+			);
+			name = Skills;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1614,6 +1663,11 @@
 				D072D4071697212500A0EA6A /* unzip.c in Sources */,
 				D072D4081697212500A0EA6A /* zip.c in Sources */,
 				D072D4091697212500A0EA6A /* SSZipArchive.m in Sources */,
+				D072D40E1699AB4E00A0EA6A /* GameObject.m in Sources */,
+				D072D4111699AF0A00A0EA6A /* SkillObject.m in Sources */,
+				D072D4141699AF1C00A0EA6A /* Grandmonther.m in Sources */,
+				D072D4171699AF7200A0EA6A /* EvilObject.m in Sources */,
+				D072D4261699BA6D00A0EA6A /* CoinObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
