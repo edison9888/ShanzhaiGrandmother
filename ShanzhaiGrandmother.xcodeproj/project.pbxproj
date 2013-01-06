@@ -256,6 +256,17 @@
 		D072D4141699AF1C00A0EA6A /* Grandmonther.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D4131699AF1C00A0EA6A /* Grandmonther.m */; };
 		D072D4171699AF7200A0EA6A /* EvilObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D4161699AF7200A0EA6A /* EvilObject.m */; };
 		D072D4261699BA6D00A0EA6A /* CoinObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D4251699BA6D00A0EA6A /* CoinObject.m */; };
+		D072D42B1699BE5F00A0EA6A /* IceSkill.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D42A1699BE5F00A0EA6A /* IceSkill.m */; };
+		D072D42E1699BE7100A0EA6A /* FireSkill.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D42D1699BE7100A0EA6A /* FireSkill.m */; };
+		D072D4341699BEEF00A0EA6A /* Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D4331699BEEF00A0EA6A /* Coin.m */; };
+		D072D4371699BEFA00A0EA6A /* BigCoin.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D4361699BEFA00A0EA6A /* BigCoin.m */; };
+		D072D43A1699BF1700A0EA6A /* NormalRole.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D4391699BF1700A0EA6A /* NormalRole.m */; };
+		D072D43D1699BF2100A0EA6A /* BigRole.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D43C1699BF2000A0EA6A /* BigRole.m */; };
+		D072D4401699BF3A00A0EA6A /* SmallEvil.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D43F1699BF3A00A0EA6A /* SmallEvil.m */; };
+		D072D4431699BF5200A0EA6A /* BigEvil.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D4421699BF5200A0EA6A /* BigEvil.m */; };
+		D072D4461699BF6E00A0EA6A /* Ghost.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D4451699BF6E00A0EA6A /* Ghost.m */; };
+		D072D4491699BF7B00A0EA6A /* MiddleGhost.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D4481699BF7A00A0EA6A /* MiddleGhost.m */; };
+		D072D44C1699BF8500A0EA6A /* BigGhost.m in Sources */ = {isa = PBXBuildFile; fileRef = D072D44B1699BF8400A0EA6A /* BigGhost.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -675,6 +686,28 @@
 		D072D4161699AF7200A0EA6A /* EvilObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvilObject.m; sourceTree = "<group>"; };
 		D072D4241699BA6D00A0EA6A /* CoinObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinObject.h; sourceTree = "<group>"; };
 		D072D4251699BA6D00A0EA6A /* CoinObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinObject.m; sourceTree = "<group>"; };
+		D072D4291699BE5F00A0EA6A /* IceSkill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IceSkill.h; sourceTree = "<group>"; };
+		D072D42A1699BE5F00A0EA6A /* IceSkill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IceSkill.m; sourceTree = "<group>"; };
+		D072D42C1699BE7100A0EA6A /* FireSkill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireSkill.h; sourceTree = "<group>"; };
+		D072D42D1699BE7100A0EA6A /* FireSkill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireSkill.m; sourceTree = "<group>"; };
+		D072D4321699BEEF00A0EA6A /* Coin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coin.h; sourceTree = "<group>"; };
+		D072D4331699BEEF00A0EA6A /* Coin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coin.m; sourceTree = "<group>"; };
+		D072D4351699BEFA00A0EA6A /* BigCoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigCoin.h; sourceTree = "<group>"; };
+		D072D4361699BEFA00A0EA6A /* BigCoin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigCoin.m; sourceTree = "<group>"; };
+		D072D4381699BF1700A0EA6A /* NormalRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalRole.h; sourceTree = "<group>"; };
+		D072D4391699BF1700A0EA6A /* NormalRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalRole.m; sourceTree = "<group>"; };
+		D072D43B1699BF2000A0EA6A /* BigRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigRole.h; sourceTree = "<group>"; };
+		D072D43C1699BF2000A0EA6A /* BigRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigRole.m; sourceTree = "<group>"; };
+		D072D43E1699BF3A00A0EA6A /* SmallEvil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallEvil.h; sourceTree = "<group>"; };
+		D072D43F1699BF3A00A0EA6A /* SmallEvil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallEvil.m; sourceTree = "<group>"; };
+		D072D4411699BF5200A0EA6A /* BigEvil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigEvil.h; sourceTree = "<group>"; };
+		D072D4421699BF5200A0EA6A /* BigEvil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigEvil.m; sourceTree = "<group>"; };
+		D072D4441699BF6E00A0EA6A /* Ghost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ghost.h; sourceTree = "<group>"; };
+		D072D4451699BF6E00A0EA6A /* Ghost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ghost.m; sourceTree = "<group>"; };
+		D072D4471699BF7A00A0EA6A /* MiddleGhost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiddleGhost.h; sourceTree = "<group>"; };
+		D072D4481699BF7A00A0EA6A /* MiddleGhost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiddleGhost.m; sourceTree = "<group>"; };
+		D072D44A1699BF8400A0EA6A /* BigGhost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigGhost.h; sourceTree = "<group>"; };
+		D072D44B1699BF8400A0EA6A /* BigGhost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigGhost.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1340,12 +1373,9 @@
 		D072D40A1699A64B00A0EA6A /* Roles */ = {
 			isa = PBXGroup;
 			children = (
-				D072D4121699AF1C00A0EA6A /* Grandmonther.h */,
-				D072D4131699AF1C00A0EA6A /* Grandmonther.m */,
-				D072D4151699AF7200A0EA6A /* EvilObject.h */,
-				D072D4161699AF7200A0EA6A /* EvilObject.m */,
-				D072D4241699BA6D00A0EA6A /* CoinObject.h */,
-				D072D4251699BA6D00A0EA6A /* CoinObject.m */,
+				D072D4311699BEBB00A0EA6A /* Coin */,
+				D072D4301699BE8A00A0EA6A /* Grandmother */,
+				D072D42F1699BE7D00A0EA6A /* Evil */,
 			);
 			name = Roles;
 			sourceTree = "<group>";
@@ -1364,8 +1394,57 @@
 			children = (
 				D072D40F1699AF0900A0EA6A /* SkillObject.h */,
 				D072D4101699AF0A00A0EA6A /* SkillObject.m */,
+				D072D4291699BE5F00A0EA6A /* IceSkill.h */,
+				D072D42A1699BE5F00A0EA6A /* IceSkill.m */,
+				D072D42C1699BE7100A0EA6A /* FireSkill.h */,
+				D072D42D1699BE7100A0EA6A /* FireSkill.m */,
 			);
 			name = Skills;
+			sourceTree = "<group>";
+		};
+		D072D42F1699BE7D00A0EA6A /* Evil */ = {
+			isa = PBXGroup;
+			children = (
+				D072D4151699AF7200A0EA6A /* EvilObject.h */,
+				D072D4161699AF7200A0EA6A /* EvilObject.m */,
+				D072D43E1699BF3A00A0EA6A /* SmallEvil.h */,
+				D072D43F1699BF3A00A0EA6A /* SmallEvil.m */,
+				D072D4411699BF5200A0EA6A /* BigEvil.h */,
+				D072D4421699BF5200A0EA6A /* BigEvil.m */,
+				D072D4441699BF6E00A0EA6A /* Ghost.h */,
+				D072D4451699BF6E00A0EA6A /* Ghost.m */,
+				D072D4471699BF7A00A0EA6A /* MiddleGhost.h */,
+				D072D4481699BF7A00A0EA6A /* MiddleGhost.m */,
+				D072D44A1699BF8400A0EA6A /* BigGhost.h */,
+				D072D44B1699BF8400A0EA6A /* BigGhost.m */,
+			);
+			name = Evil;
+			sourceTree = "<group>";
+		};
+		D072D4301699BE8A00A0EA6A /* Grandmother */ = {
+			isa = PBXGroup;
+			children = (
+				D072D4121699AF1C00A0EA6A /* Grandmonther.h */,
+				D072D4131699AF1C00A0EA6A /* Grandmonther.m */,
+				D072D4381699BF1700A0EA6A /* NormalRole.h */,
+				D072D4391699BF1700A0EA6A /* NormalRole.m */,
+				D072D43B1699BF2000A0EA6A /* BigRole.h */,
+				D072D43C1699BF2000A0EA6A /* BigRole.m */,
+			);
+			name = Grandmother;
+			sourceTree = "<group>";
+		};
+		D072D4311699BEBB00A0EA6A /* Coin */ = {
+			isa = PBXGroup;
+			children = (
+				D072D4241699BA6D00A0EA6A /* CoinObject.h */,
+				D072D4251699BA6D00A0EA6A /* CoinObject.m */,
+				D072D4321699BEEF00A0EA6A /* Coin.h */,
+				D072D4331699BEEF00A0EA6A /* Coin.m */,
+				D072D4351699BEFA00A0EA6A /* BigCoin.h */,
+				D072D4361699BEFA00A0EA6A /* BigCoin.m */,
+			);
+			name = Coin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1668,6 +1747,17 @@
 				D072D4141699AF1C00A0EA6A /* Grandmonther.m in Sources */,
 				D072D4171699AF7200A0EA6A /* EvilObject.m in Sources */,
 				D072D4261699BA6D00A0EA6A /* CoinObject.m in Sources */,
+				D072D42B1699BE5F00A0EA6A /* IceSkill.m in Sources */,
+				D072D42E1699BE7100A0EA6A /* FireSkill.m in Sources */,
+				D072D4341699BEEF00A0EA6A /* Coin.m in Sources */,
+				D072D4371699BEFA00A0EA6A /* BigCoin.m in Sources */,
+				D072D43A1699BF1700A0EA6A /* NormalRole.m in Sources */,
+				D072D43D1699BF2100A0EA6A /* BigRole.m in Sources */,
+				D072D4401699BF3A00A0EA6A /* SmallEvil.m in Sources */,
+				D072D4431699BF5200A0EA6A /* BigEvil.m in Sources */,
+				D072D4461699BF6E00A0EA6A /* Ghost.m in Sources */,
+				D072D4491699BF7B00A0EA6A /* MiddleGhost.m in Sources */,
+				D072D44C1699BF8500A0EA6A /* BigGhost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
