@@ -6,8 +6,8 @@
 //
 //
 
-#import "Grandmonther.h"
+#import "RoleObject.h"
 
-@interface BigRole : Grandmonther
+@interface BigRole : RoleObject
 
 @end
